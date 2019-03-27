@@ -5,7 +5,10 @@ import {
     Col,
     Container
 } from 'reactstrap';
+//import '../../assets/css/slider.css';
+//import '../../assets/js/slider.js';
 import '../../assets/css/main.css';
+
 export default class Header extends React.Component {
     constructor(props) {
         super(props);
@@ -27,7 +30,7 @@ export default class Header extends React.Component {
                     <Row>
                         <Col>
                             <div id="logo" className="pull-left">
-                                <a href="/"><img src="/img/logo_sm.png" alt="Shofast" /></a>
+                                <a href="/"><img src="/img/logo_sm.png" alt="Wedding Bells" /></a>
                             </div>
                         </Col>
                         <Col>
