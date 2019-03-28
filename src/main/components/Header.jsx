@@ -37,6 +37,10 @@ export default class Header extends React.Component {
                             <Nav id="nav-menu-container">
                                 <ul className="nav-menu">
                                     <li className="d-none d-md-block"><a href="/"><i className="fa fa-home fa-2x"></i></a></li>
+                                    <li><a href="#!"><i className="fa fa-search fa-2x" aria-hidden="true"></i><span className="d-none d-md-block"></span> Search</a></li>
+                                    <li><a href="#!"><i className="fa fa-shopping-cart fa-2x" aria-hidden="true"></i><span className="d-none d-md-block"></span> Offers</a></li>
+                                    <li><a href="#!"><i className="fa fa-shopping-cart fa-2x" aria-hidden="true"></i><span className="d-none d-md-block"></span> Help</a></li>
+                                    <li><a href="#!"><i className="fa fa-person fa-2x" aria-hidden="true"></i><span className="d-none d-md-block"></span> Sign In</a></li>
                                     <li><a href="/my-cart"><i className="fa fa-shopping-cart fa-2x" aria-hidden="true"></i><span className="d-none d-md-block"></span> Cart</a></li>
                                     <li className="menu-has-children"><a href="/"><i className="fa fa-user fa-2x"></i><span className="d-none d-md-block"></span></a>
                                         <ul>

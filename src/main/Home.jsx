@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 //import Sidebar from '../../components/Sidebar';
 //import Content from '../../components/Content';
-{/*class Home extends Component {
+class Home extends Component {
   render() {
     const settings = {
       className: "center",
@@ -10,15 +10,16 @@ import Slider from "react-slick";
       centerPadding: "60px",
       slidesToShow: 5,
       swipeToSlide: true,
-      afterChange: function(index) {
-        console.log(
-          `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
-        );
-      }
+      
     };
     return (
-      <div>
-        <h2>Swipe To Slide</h2>
+      <div className="container">
+      <div className="row">
+        <div className="col-md-12">hello</div>
+      </div>
+     
+
+        {/*<h2>Swipe To Slide</h2>
         <Slider {...settings}>
           <div>
             <h3>1</h3>
@@ -47,16 +48,16 @@ import Slider from "react-slick";
           <div>
             <h3>9</h3>
           </div>
-        </Slider>
+        </Slider>*/}
         {/*<Sidebar />*/}
         {/*<Content />*/}
-      {/*</div>
+      </div>
      
     );
   }
 }
-export default Home;*/}
-const dataslide = [
+export default Home;
+{/*const dataslide = [
   {
       "id": "1",
       "title": "One"
@@ -120,4 +121,4 @@ class Home extends Component {
       )
   }
 }
-export default Home;
+export default Home;*/}
